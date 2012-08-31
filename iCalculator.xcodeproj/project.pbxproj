@@ -15,6 +15,7 @@
 		9F3C116E15F0479200F4BA75 /* ICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3C116D15F0479200F4BA75 /* ICAppDelegate.m */; };
 		9F3C117115F0479200F4BA75 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3C116F15F0479200F4BA75 /* MainStoryboard.storyboard */; };
 		9F3C117415F0479200F4BA75 /* ICViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3C117315F0479200F4BA75 /* ICViewController.m */; };
+		9F3C117C15F04F3B00F4BA75 /* ICBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3C117B15F04F3B00F4BA75 /* ICBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		9F3C117015F0479200F4BA75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9F3C117215F0479200F4BA75 /* ICViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICViewController.h; sourceTree = "<group>"; };
 		9F3C117315F0479200F4BA75 /* ICViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICViewController.m; sourceTree = "<group>"; };
+		9F3C117A15F04F3B00F4BA75 /* ICBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBrain.h; sourceTree = "<group>"; };
+		9F3C117B15F04F3B00F4BA75 /* ICBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				9F3C117215F0479200F4BA75 /* ICViewController.h */,
 				9F3C117315F0479200F4BA75 /* ICViewController.m */,
 				9F3C116415F0479200F4BA75 /* Supporting Files */,
+				9F3C117A15F04F3B00F4BA75 /* ICBrain.h */,
+				9F3C117B15F04F3B00F4BA75 /* ICBrain.m */,
 			);
 			path = iCalculator;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				9F3C116A15F0479200F4BA75 /* main.m in Sources */,
 				9F3C116E15F0479200F4BA75 /* ICAppDelegate.m in Sources */,
 				9F3C117415F0479200F4BA75 /* ICViewController.m in Sources */,
+				9F3C117C15F04F3B00F4BA75 /* ICBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
